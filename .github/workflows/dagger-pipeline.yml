@@ -29,8 +29,6 @@ jobs:
           python-version: '3.11'
       - name: Install dagger SDK
         run: pip install dagger-io
-      - name: Install Dependencies
-        run: npm install
       - name: Install Dagger-CLI
         run: |
           sudo curl -L https://dl.dagger.io/dagger/install.sh | sh
