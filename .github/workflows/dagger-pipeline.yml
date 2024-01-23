@@ -30,8 +30,7 @@ jobs:
       - name: Install dagger SDK
         run: pip install dagger-io
       - name: Install Dagger-CLI
-        run: |
-          sudo curl -L https://dl.dagger.io/dagger/install.sh | sh
+        run: cd /usr/local && { curl -L https://dl.dagger.io/dagger/install.sh | sh; cd -; }
 
       - name: Run Dagger Pipeline
         run: dagger run pyhton ci/main.py
