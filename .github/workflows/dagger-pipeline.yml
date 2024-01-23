@@ -32,6 +32,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Install Dagger-CLI
-        run: cd /usr/local && { curl -L https://dl.dagger.io/dagger/install.sh | sh; cd -; 
+        run: |
+          sudo curl -L https://dl.dagger.io/dagger/install.sh | sh
+
       - name: Run Dagger Pipeline
         run: dagger run pyhton ci/main.py
