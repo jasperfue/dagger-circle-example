@@ -40,7 +40,7 @@ You can install the Dagger Python SDK either via pip or Conda.
 
 ## Running the Pipeline
 
-With the setup completed, follow these steps to run the pipeline:
+With the setup completed, follow these steps to run the pipeline locally:
 
 1. Ensure that the Docker Desktop App is open. This is necessary as the pipeline runs in a Docker container.
 2. Open Command Prompt in the root directory.
