@@ -38,8 +38,6 @@ You can install the Dagger Python SDK either via pip or Conda.
   conda install dagger-io
   ```
 
-Of course! Here's the continuation of the README, including the instructions for running the pipeline:
-
 ---
 
 ## Running the Pipeline
