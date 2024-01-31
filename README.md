@@ -55,5 +55,3 @@ With the setup completed, you can run the pipeline using the following command:
 This command will initiate the pipeline using the Dagger tool.
 
 ---
-
-Again, you can adapt these instructions as needed for your specific project and repository.
