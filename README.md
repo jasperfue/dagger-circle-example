@@ -38,6 +38,22 @@ You can install the Dagger Python SDK either via pip or Conda.
   conda install dagger-io
   ```
 
+Of course! Here's the continuation of the README, including the instructions for running the pipeline:
+
 ---
 
-Feel free to modify this template according to your repository's specific needs!
+## Running the Pipeline
+
+With the setup completed, you can run the pipeline using the following command:
+
+1. Open Command Prompt.
+2. Execute the command:
+   ```cmd
+   dagger run python ci/main.py
+   ```
+
+This command will initiate the pipeline using the Dagger tool.
+
+---
+
+Again, you can adapt these instructions as needed for your specific project and repository.
